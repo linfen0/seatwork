@@ -1,7 +1,10 @@
 from base import physical_base
 import numpy as np
-# 在这个名为alpha的list里面，填你自己测量的旋光度的数据，之后运行即可
-alpha=[8.15,8.40,8.55,8.30,8.50]
-alpha=np.array([alpha],dtype=np.float32)
+cita0=np.array([[179.10,179.10,179.10,179.05,179.05]],dtype=np.float64)
+cita=np.array([[189.00,189.05,189.20,189.05,189.10]],dtype=np.float64)
+alpha=cita[:]-cita0[:]
+np.set_printoptions(precision=2, suppress=True)
+print(alpha)
+#alpha=[9.05,8.40,8.65,8.40,8.60]
+#alpha=np.array([alpha],dtype=np.float32)
 newproject=physical_base.physicDataProcess(alpha)
-newproject.Directuncertainly(0,0.05)
