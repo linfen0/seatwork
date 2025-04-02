@@ -75,7 +75,7 @@
           <mxGeometry x="360" y="-220" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WhcwQD56h4zGXyxaoDzB-26" value="选择课程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="484" y="45" width="140" height="70" as="geometry" />
+          <mxGeometry x="484" y="55" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WhcwQD56h4zGXyxaoDzB-27" value="登记成绩" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="-95" width="140" height="70" as="geometry" />
